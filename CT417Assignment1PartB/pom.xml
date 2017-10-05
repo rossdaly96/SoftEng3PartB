@@ -5,21 +5,17 @@
     <artifactId>CT417Assignment1PartB</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
 	<repositories>
 		<repository>
-			<id>dropbox-mvn-repo</id>
-			<name>My DropBox Repository</name>
-			<url>
-				https://www.dropbox.com/sh/1tg53jahvoijfov/AAAPneFecUiPOnm_BFYOIoLza?dl=0
-			</url>
+                    <id>dropbox-mvn-repo</id>
+                    <url>https://www.dropbox.com/sh/udohu74i3xzsw9g/AAD0BXkIzZ0RvyUrO_TiWrAQa?dl=0</url>
 		</repository>
 	</repositories>
     <dependencies>
         <dependency>
             <groupId>com.mycompany</groupId>
             <artifactId>CT417Assignment1</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.1</version>
             <type>jar</type>
         </dependency>
         <dependency>
