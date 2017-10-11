@@ -53,7 +53,7 @@ public class TestDriver {
         Date d2=format.parse(ed);
         DateTime start = new DateTime(d1);
         DateTime end = new DateTime(d2);
-
+/*
         Programme prog1 = new Programme("Arts with time",modList,start,end);
 
         ArrayList<Module> modules = prog1.getModules();
@@ -62,7 +62,7 @@ public class TestDriver {
         for (Module m : modules) {
             System.out.println("  Module ID: "+m.getCourseID()+"\n  Module name: "+m.getModuleName());
             System.out.println("  Students taking course: "+m.getStudentList()+"\n");
-        }
+        }*/
     }
     
 }
