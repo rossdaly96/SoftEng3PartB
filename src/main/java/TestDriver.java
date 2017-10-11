@@ -39,12 +39,12 @@ public class TestDriver {
         Module mod1 = new Module("Arts Stuff","BS101",allStudents);
         Module mod2 = new Module("Time, how to waste it","BS102",studentList);
         Module mod3 = new Module("Dead people from history","BS103",studentList2);
-        /*
+        
         ArrayList<Module> modList = new ArrayList<Module>();
         modList.add(mod1);
         modList.add(mod2);
         modList.add(mod3);
-        
+        /*
         //creating the two joda DateTimes to represent the start and end dates
         SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         String srt="5/9/2018";
@@ -52,9 +52,9 @@ public class TestDriver {
         Date d1=format.parse(srt);
         Date d2=format.parse(ed);
         DateTime start = new DateTime(d1);
-        DateTime end = new DateTime(d2);
+        DateTime end = new DateTime(d2);*/
 
-        Programme prog1 = new Programme("Arts with time",modList,start,end);
+        Programme prog1 = new Programme("Arts with time",modList,"5/9/2018","17/5/2022");
 
         ArrayList<Module> modules = prog1.getModules();
 
@@ -62,7 +62,7 @@ public class TestDriver {
         for (Module m : modules) {
             System.out.println("  Module ID: "+m.getCourseID()+"\n  Module name: "+m.getModuleName());
             System.out.println("  Students taking course: "+m.getStudentList()+"\n");
-        }*/
+        }
     }
     
 }
