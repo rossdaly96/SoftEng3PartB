@@ -8,7 +8,7 @@
 	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
-		    <url>https://jitpack.io/#rossdaly96/softEng3</url>
+		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
     <dependencies>
