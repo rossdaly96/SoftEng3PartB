@@ -57,12 +57,12 @@ public class TestDriver {
         Programme prog1 = new Programme("Arts with time",modList,start,end);
 
         ArrayList<Module> modules = prog1.getModules();
-
+/*
         System.out.println("Program name: "+prog1.getCourseName());
         for (Module m : modules) {
             System.out.println("  Module ID: "+m.getCourseID()+"\n  Module name: "+m.getModuleName());
             System.out.println("  Students taking course: "+m.getStudentList()+"\n");
-        }
+        }*/
     }
     
 }
