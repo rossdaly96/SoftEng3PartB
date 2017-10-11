@@ -39,7 +39,7 @@ public class TestDriver {
         Module mod1 = new Module("Arts Stuff","BS101",allStudents);
         Module mod2 = new Module("Time, how to waste it","BS102",studentList);
         Module mod3 = new Module("Dead people from history","BS103",studentList2);
-        
+        /*
         ArrayList<Module> modList = new ArrayList<Module>();
         modList.add(mod1);
         modList.add(mod2);
@@ -62,7 +62,7 @@ public class TestDriver {
         for (Module m : modules) {
             System.out.println("  Module ID: "+m.getCourseID()+"\n  Module name: "+m.getModuleName());
             System.out.println("  Students taking course: "+m.getStudentList()+"\n");
-        }
+        }*/
     }
     
 }
