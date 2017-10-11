@@ -44,7 +44,7 @@ public class TestDriver {
         modList.add(mod1);
         modList.add(mod2);
         modList.add(mod3);
-        
+        /*
         //creating the two joda DateTimes to represent the start and end dates
         SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         String srt="5/9/2018";
@@ -57,7 +57,7 @@ public class TestDriver {
         Programme prog1 = new Programme("Arts with time",modList,start,end);
 
         ArrayList<Module> modules = prog1.getModules();
-/*
+
         System.out.println("Program name: "+prog1.getCourseName());
         for (Module m : modules) {
             System.out.println("  Module ID: "+m.getCourseID()+"\n  Module name: "+m.getModuleName());
