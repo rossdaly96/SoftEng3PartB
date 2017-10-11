@@ -44,7 +44,7 @@ public class TestDriver {
         modList.add(mod1);
         modList.add(mod2);
         modList.add(mod3);
-        /*
+        
         //creating the two joda DateTimes to represent the start and end dates
         SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         String srt="5/9/2018";
@@ -52,9 +52,9 @@ public class TestDriver {
         Date d1=format.parse(srt);
         Date d2=format.parse(ed);
         DateTime start = new DateTime(d1);
-        DateTime end = new DateTime(d2);*/
+        DateTime end = new DateTime(d2);
 
-        Programme prog1 = new Programme("Arts with time",modList,"5/9/2018","17/5/2022");
+        Programme prog1 = new Programme("Arts with time",modList,start,end);
 
         ArrayList<Module> modules = prog1.getModules();
 
